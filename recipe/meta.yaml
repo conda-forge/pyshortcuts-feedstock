@@ -40,6 +40,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - kperez
     - mrakitin
     - conda-forge/event-model
