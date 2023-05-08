@@ -1,5 +1,5 @@
 {% set name = "pyshortcuts" %}
-{% set version = "1.8.3" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyshortcuts-{{ version }}.tar.gz
-  sha256: d930e8c68ca520125ce47b1bcca7537e5e7b0b68e15e5c4df6e1d1593dae0291
+  sha256: 016e89111337f74ce1ba3f4b79b295a643bc70b3e63ce4600247aa4bafa06877
 
 build:
   number: 0

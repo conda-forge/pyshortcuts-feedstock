@@ -1,11 +1,11 @@
-About pyshortcuts
-=================
+About pyshortcuts-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyshortcuts-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/newville/pyshortcuts
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyshortcuts-feedstock/blob/main/LICENSE.txt)
 
 Summary: create desktop and Start Menu shortcuts for python scripts
 
