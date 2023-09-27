@@ -10,7 +10,7 @@ source:
   sha256: 016e89111337f74ce1ba3f4b79b295a643bc70b3e63ce4600247aa4bafa06877
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - pyshortcut = pyshortcuts:shortcut_cli
   script: {{ PYTHON }} -m pip install . -vv --no-deps
