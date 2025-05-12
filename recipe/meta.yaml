@@ -6,19 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyshortcuts-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyshortcuts-{{ version }}.tar.gz
   sha256: 49dbb4c3f032ad4f6c54ba4c84bf7ef32c5538422191924281597278bbb6913c
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - pyshortcut = pyshortcuts:shortcut_cli
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
 requirements:
   host:
-    - pip
     - python
+    - pip
+    - setuptools
   run:
     - python
     - charset-normalizer
