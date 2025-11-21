@@ -1,5 +1,5 @@
 {% set name = "pyshortcuts" %}
-{% set version = "1.9.5" %}
+{% set version = "1.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyshortcuts-{{ version }}.tar.gz
-  sha256: 49dbb4c3f032ad4f6c54ba4c84bf7ef32c5538422191924281597278bbb6913c
+  sha256: 03c549252cf37d03f03d63d63f5e8ddf0bc267b3da4c3ccfb48c8c7171d698ec
 
 build:
-  number: 2
+  number: 0
   entry_points:
     - pyshortcut = pyshortcuts:shortcut_cli
   script: {{ PYTHON }} -m pip install . -vv --no-deps
